@@ -1,0 +1,75 @@
+body{
+
+    background-color: black;
+}
+
+
+.joe_juice_txt{
+    margin-top: 8vw;
+    font-size: 4vw;
+    letter-spacing: .2em;
+    text-align: left;
+    line-height: 5vw;
+    padding: 10vw 10vw;
+    color: #ffd5f0;
+    font-weight: 500;
+}
+
+.joe_juice_txt span{
+     font-size: 1.2em;
+    font-weight: 100;
+
+}
+
+#joe_juice_wrapper {
+    margin-top: 8vw;
+
+    display: flex;
+
+    justify-content: center;
+    background-color: #6f9683;
+    padding-top: 4vw;
+    font-size: 4vw;
+}
+
+
+
+.logo_wrap{
+
+    text-align: center;
+
+}
+.logo_1{
+
+
+    width: 25vw;
+    height: 25vw;
+
+
+    background-image: url(SVG/joe_1.svg);
+    background-size: 100% 100%;
+    margin: 5vw;
+    border-radius: 6vw;
+    box-shadow: 1px 1px 1px black;
+    box-sizing: border-box;
+
+
+
+}
+.logo_2{
+
+
+    width: 25vw;
+    height: 25vw;
+
+
+    background-image: url(SVG/joe_2.svg);
+    background-size: 100% 100%;
+    margin: 5vw;
+    border-radius: 6vw;
+    box-shadow: 1px 1px 1px black;
+    box-sizing: border-box;
+
+
+
+}

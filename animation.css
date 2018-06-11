@@ -1,0 +1,310 @@
+body{ background-color: white;}
+
+.sketch_txt {
+    margin-top: 8vw;
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+    font-size: 8vw;
+    letter-spacing: 4vw;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    padding: 5vw 10vw;
+
+}
+
+.sketch1_wrap {
+
+    padding: 10vw 15vw;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sketch1 {
+    background-image: url(sketches.png);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 40vw;
+
+}
+
+
+
+
+.colors_wrap {
+
+    padding: 10vw 15vw;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.colors {
+
+    background-image: url(SVG/colors_1.svg);
+    background-size: 100% 100%;
+    background-color: white;
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 40vw;
+
+}
+
+.svg_making_text {
+
+    background-color: white;
+
+    width: 100vw;
+
+    padding: 10vw 15vw;
+
+    text-align: left;
+    line-height: 5vw;
+    box-sizing: border-box;
+    font-size: 3vw;
+    letter-spacing: 1vw;
+    font-weight: 200;
+    background-color: slategrey;
+    color: white;
+
+}
+.svg_making_wrap{
+    padding: 10vw 15vw;
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.svg_making {
+
+    background-image: url(SVG/details.svg);
+    background-size: 100% 100%;
+
+    box-sizing: border-box;
+
+    width: 100vw;
+    height: 40vw;
+
+}
+
+.caracter_text {
+
+    background-color: white;
+
+    width: 100vw;
+    text-align: center;
+
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-weight: 300;
+    padding: 0vw 15vw;
+
+}
+
+.caracter1 {
+
+    background-image: url(SVG/thefrog.svg);
+    background-size: 100% 100%;
+    background-color: white;
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 60vw;
+    padding-left: 5vw;
+    padding-top: .5vw;
+
+
+}
+
+.caracter1 ul {
+    text-align: right;
+    width: 40vw;
+    padding: 12vw 0vw 12vw 0vw;
+    box-sizing: border-box;
+    line-height: 3.52vw;
+    font-weight: 600;
+    font-size: 2vw;
+    list-style-type: none;
+
+
+
+
+}
+
+.caracter2 {
+
+    background-image: url(SVG/thebear.svg);
+    background-size: 100% 100%;
+    background-color: white;
+
+    box-sizing: border-box;
+
+    width: 100vw;
+    padding-left: 55vw;
+
+}
+
+.caracter2 ul {
+
+
+
+
+    list-style-type: none;
+
+    width: 40vw;
+
+    text-align: left;
+    width: 40vw;
+    padding: 12vw 0vw 12vw 0vw;
+    box-sizing: border-box;
+    line-height: 3.52vw;
+    font-weight: 600;
+    font-size: 2vw;
+    list-style-type: none;
+
+
+
+}
+
+
+
+
+.sprite_sheets_txt {
+  background-color: white;
+
+    width: 100vw;
+    text-align: center;
+
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-weight: 300;
+    padding: 0vw 15vw;
+
+}
+.sprite_wrap{
+
+
+
+}
+
+.sprite_sheets {
+
+
+    background-image: url(SVG/spritesheet.svg);
+    background-size: 100% 100%;
+    background-color: white;
+
+    box-sizing: border-box;
+
+    width: 100vw;
+    height: 40vw;
+
+
+}
+
+.lyd_txt {
+      background-color: white;
+
+    width: 100vw;
+    text-align: center;
+
+    font-size: 4vw;
+    letter-spacing: 1vw;
+    font-weight: 300;
+    padding: 0vw 15vw;
+
+}
+
+.lyd {
+    width: 100vw;
+
+
+    background-color: powderblue;
+    color: black;
+
+    font-size 1vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 20vw;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.lyd audio {
+
+    width: 100%;
+
+}
+
+.scene_wrapper {
+
+    width: 100vw;
+    height: 100vw;
+    padding: 10vw;
+    box-sizing: border-box;
+    background-color: #c7ffec;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+    letter-spacing: 5vw;
+}
+
+.scene {
+
+    background-image: url(pics/scene.jpg);
+    background-size: 100% 100%;
+    background-color: gray;
+
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px black;
+
+
+    width: 80vw;
+    height: 46vw;
+    cursor: pointer;
+
+
+
+
+}
+
+
+.privatsnak_wrapper {
+    width: 100vw;
+    height: 100vw;
+    padding: 10vw;
+    box-sizing: border-box;
+    background-color: #ffcc7b;
+    align-items: center;
+    text-align: center;
+    font-size: 5vw;
+    letter-spacing: 1vw;
+
+}
+
+.privatsnak_scene {
+    background-image: url(SVG/privatsnak.svg);
+    background-size: 100% 100%;
+    background-color: gray;
+
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px black;
+
+
+    width: 80vw;
+    height: 46vw;
+    cursor: pointer;
+
+}

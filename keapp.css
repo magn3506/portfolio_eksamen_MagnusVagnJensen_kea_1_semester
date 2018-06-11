@@ -1,0 +1,163 @@
+body{
+
+    background-color: #000000;
+}
+
+#link_til_dokusite_keaapp{
+
+margin-top: 20vw;
+    margin-bottom: 10vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding:2vw 0vw 5vw 0vw;
+    box-sizing: border-box;
+}
+
+#random_knap{
+
+    background-color: red;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
+    color: white;
+    font-size:4vw;
+    padding: 2vw;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+
+.random_knap_display_none{
+
+    display: none;
+}
+
+
+#random_knap:hover {
+
+  animation: pulse_3 .2s infinite;
+
+
+}
+
+@keyframes pulse_3{
+
+    from{
+ background-color: red;
+
+
+    }
+
+    to{
+ background-color: #ff6464;
+
+    }
+}
+
+#opgavebskrivelse_knap{
+
+    background-color: #5decff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
+    color: red;
+    font-size:4vw;
+    padding:2vw;
+    border-radius: 20px;
+    border: 2px solid black;
+      position: relative;
+
+
+
+
+}
+
+.opgavebskrivelse_knap_display_none{
+
+    display: none;
+
+}
+
+#opgavebskrivelse_knap:hover {
+
+  animation: pulse_1 .2s infinite;
+
+
+}
+
+@keyframes pulse_1{
+
+    from{
+            background-color: #5decff;
+
+
+    }
+
+    to{
+                    background-color: #ecf8fa;
+
+
+    }
+}
+
+#link_til_dokusite_kea_app_knap{
+
+    background-color: #5dff5d;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.44);
+    color: red;
+    font-size:4vw;
+    padding:2vw;
+    border-radius: 20px;
+    border: 2px solid black;
+position:relative;
+
+
+}
+
+.link_til_dokusite_kea_app_knap_display_none{
+
+
+    display: none;
+}
+
+#link_til_dokusite_kea_app_knap:hover {
+
+  animation: pulse_2 .2s infinite;
+
+
+}
+
+@keyframes pulse_2{
+
+    from{
+               background-color: #5dff5d;
+
+
+    }
+
+    to{
+                        background-color: #f2fff2;
+
+
+    }
+}
+
+
+.pres_video_wrapper{
+
+
+    background-color: #befdff;
+    display: flex;
+    justify-content: center;
+    padding: 4vw 4vw 10vw 4vw;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 5vw;
+
+}
+
+.pres_video_wrapper video{
+
+    box-shadow: 2vw 2vw 2vw grey;
+}
+

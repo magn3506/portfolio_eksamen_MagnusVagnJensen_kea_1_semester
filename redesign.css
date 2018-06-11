@@ -1,0 +1,218 @@
+.bert_test_info {
+
+    background-color: black;
+    width: 100vw;
+
+    text-align: left;
+    color: WHITE;
+    padding: 15VW 15VW;
+    font-size: 3VW;
+    letter-spacing: 1.1VW;
+    line-height: 6VW;
+
+
+}
+
+
+.bert_test {
+
+    background-image: url(SVG/berttest.svg);
+    width: 100vw;
+    height: 56.25vw;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.visions {
+
+    background-color: #646464;
+    width: 100vw;
+    color: gray;
+    ;
+    letter-spacing: 1vw;
+
+    line-height: 10vw;
+
+    text-align: center;
+    padding: 5vw 10vw;
+}
+
+
+.visions span {
+    font-size: 6.5vw;
+    width: 50vw;
+    letter-spacing: -0.1vw;
+    color: grey;
+}
+
+.visions span:hover {
+    font-size: 6.5vw;
+    width: 50vw;
+    letter-spacing: -0.1vw;
+    color: #5f9d00;
+    transition: 4s;
+}
+
+
+.logline {
+
+
+    background-color: #ffffff;
+    width: 100vw;
+
+
+
+    color: gray;
+    ;
+    letter-spacing: 1vw;
+    line-height: 6vw;
+    padding: 10vw 10vw;
+    text-align: left;
+    font-size: 2.5vw;
+    font-weight: 100;
+
+
+}
+
+
+
+.logline span:hover {
+    color: #5f9d00;
+    ;
+    font-weight: 600;
+
+
+
+}
+
+.problems {
+    background-color: cadetblue;
+    width: 100vw;
+    padding: 10vw 15vw;
+
+
+
+}
+
+.problems h2 {
+    font-weight: 900;
+    letter-spacing: 2vw;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 1px solid black;
+}
+
+.problems ul {
+
+    line-height: 5vw;
+    font-size: 3.4vw;
+    text-align: left;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 3vw;
+    background-color: rgba(0, 0, 0, 0.44);
+    ;
+}
+
+.problems li {
+    padding: 1vw;
+    color: #ffffff;
+}
+
+
+.results {
+
+    width: 100vw;
+}
+
+
+.results {
+
+    background-image: url(pics/ecoegoredesign.png);
+    width: 100vw;
+    height: 47vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.results p {
+
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1vw;
+    font-size: 3vw;
+
+}
+
+.video_text {
+    width: 100vw;
+    background-color: darkseagreen;
+    padding: 1vw 10vw;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 500;
+    color: #e8ecef;
+    letter-spacing: 1vw;
+
+}
+
+.eco_ego_video {
+
+width: 100vww;
+background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    padding: 2vw 5vw;
+
+}
+
+.video {
+
+
+    box-sizing: border-box;
+    width: 75vw;
+    height: 35vw;
+    box-shadow: 3px 3px 10px black;
+
+    border: solid grey 1px;
+
+
+
+
+}
+
+.dokumentation_site{
+
+    text-align: center;
+    width: 100vw;
+    background-color: #739a73;
+    padding: 10vw;
+    letter-spacing: -.6vw;
+
+
+
+}
+
+.dokumentation_site:hover {
+
+        letter-spacing: 0vw;
+
+}
+.dokumentation_site a{
+
+    font-size: 6vw;
+    cursor: pointer;
+    color: #93ff93;
+}

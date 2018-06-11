@@ -1,0 +1,382 @@
+nav{
+
+
+    background-color: black;
+
+}
+
+.navbar_item a {
+
+
+
+}
+
+body{
+    background-color: black;
+}
+
+.navbar_item a:hover {
+
+ color: whitesmoke;
+border-bottom: solid white 1px;
+transition: 1s;
+}
+
+.f18_pdf p{
+
+    position: absolute;
+
+    width: 100vw;
+    height: 10vw;
+
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2vw;
+
+    letter-spacing: .3vw;
+    line-height: 5vw;
+
+    bottom: 10vw;
+    left: 1vw;
+}
+
+.f18_pdf{
+       background-image: url(pics/cphdocs.jpg);
+       width: 100vw;
+    height: 56.25vw;
+margin-top: 6.5vw;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.picture_1{
+
+    background-image: url(pics/fotobg.jpg);
+    width: 100vw;
+    height: 56.25vw;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_1 p{
+
+    position: absolute;
+
+    width: 50vw;
+    height: 25vw;
+
+    color: antiquewhite;
+    text-align: left;
+    font-size: 4vw;
+
+    letter-spacing: .3vw;
+    line-height: 5vw;
+
+    top: 3vw;
+    left: 4vw;
+}
+
+.picture_2{
+
+     background-image: url(pics/lens.jpg);
+       width: 100vw;
+    height: 56.25vw;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_2 p{
+
+    position: absolute;
+
+    width: 50vw;
+    height: 40vw;
+    color: antiquewhite;
+    text-align: right;
+    font-size: 4vw;
+    font-weight: 600;
+/*    background-color: rgba(255, 255, 255, 0.28);*/
+
+    letter-spacing: .3vw;
+    line-height: 5vw;
+
+    top: 0vw;
+    right: 6vw;
+}
+
+.picture_3{
+
+     background-image: url(pics/lyd.jpg);
+       width: 100vw;
+    height: 56.25vw;
+
+
+    border: black solid 1px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_3 p{
+
+    position: absolute;
+
+    width: 55vw;
+    height: 50vw;
+    padding: 1vw;
+    color: antiquewhite;
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.51);
+
+    letter-spacing: .4vw;
+    line-height: 5vw;
+
+    top: -2vw;
+    left: 2vw;
+}
+
+.picture_4{
+
+     background-image: url(pics/prempro.jpg);
+       width: 100vw;
+    height: 56.25vw;
+
+
+    border: black solid 1px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_4 p{
+
+    position: absolute;
+
+    width: 55vw;
+    height: 50vw;
+    padding: 1vw;
+    color: black;
+    text-align: right;
+    font-size: 4vw;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.78);
+
+    letter-spacing: .4vw;
+    line-height: 5vw;
+
+    top: 0vw;
+    right: 3vw;
+}
+
+
+.picture_5{
+
+     background-image: url(pics/storyboard.jpg);
+       width: 100vw;
+    height: 56.25vw;
+    transform: scaleX(-1);
+
+
+    border: black solid 1px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_5 p{
+
+    position: absolute;
+
+    width: 55vw;
+    height: 45vw;
+    padding: 1vw;
+    color: antiquewhite;
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 700;
+/*    background-color: rgba(255, 255, 255, 0.78);*/
+
+    letter-spacing: .4vw;
+    line-height: 5vw;
+     transform: scaleX(-1);
+    top: 4vw;
+    right: 3vw;
+}
+
+.picture_6{
+
+     background-image: url(pics/potrait.jpg);
+       width: 100vw;
+    height: 56.25vw;
+    transform: scaleX(-1);
+
+
+    border: black solid 1px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_6 p{
+
+    position: absolute;
+
+    width: 50vw;
+    height: 42vw;
+    padding: 0vw 2vw;
+    color: antiquewhite;
+    text-align: right;
+    font-size: 4vw;
+    font-weight: 600;
+    background-color: rgba(60, 60, 60, 0.44);
+
+    letter-spacing: .4vw;
+    line-height: 5vw;
+     transform: scaleX(-1);
+    top: 4vw;
+    left: 3vw;
+}
+
+
+
+
+
+
+
+.picture_7{
+
+     background-image: url(pics/sofa.jpg);
+       width: 100vw;
+    height: 56.25vw;
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.picture_7 p{
+
+    position: absolute;
+
+    width: 50vw;
+    height: 35vw;
+    padding: 1vw;
+    color: antiquewhite;
+    color: ;
+    text-align: left;
+    font-size: 4vw;
+    font-weight: 600;
+/*    background-color: rgba(255, 255, 255, 0.28);*/
+
+    letter-spacing: .3vw;
+    line-height: 5vw;
+
+    top: vw;
+    left: 2vw;
+}
+
+
+.picture_8{
+
+    position: absolute;
+
+
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 56.35vw;
+    background-color: rgba(72, 72, 72, 0.72);
+    z-index: 5;
+
+    cursor: pointer;
+
+
+}
+
+.picture_8_display_none{
+
+    display: none;
+}
+
+
+.picture_8 p {
+
+    position: absolute;
+    left: 2vw;
+    top: 5vw;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 900;
+    letter-spacing: 1vw;
+    line-height: 10vw;
+    color: antiquewhite;
+    z-index: 4;
+
+
+}
+
+.picture_8 span {
+
+
+
+
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 100;
+    letter-spacing: 1vw;
+    line-height: 10vw;
+    color: antiquewhite;
+    z-index: 4;
+
+
+}
+
+
+
+
+.video {
+
+    position: relative;
+
+    box-sizing: border-box;
+    width: 100vw;
+    height: 56.35vw;
+    border: solid grey 1px;
+    padding: 5vw 0vw;
+
+    background-image: url(pics/bg2.jpg);
+
+}
+
+footer {
+
+    bottom: 0;
+    width: 100vw;
+    background-color: black;
+    padding: 5px;
+    z-index: 20;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-family: 'Barlow', sans-serif;
+color: whitesmoke;
+    font-weight: 1;
+    font-size: .5em;
+    text-align: center;
+}

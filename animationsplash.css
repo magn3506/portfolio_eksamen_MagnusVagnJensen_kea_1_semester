@@ -1,0 +1,232 @@
+#scene {
+
+    margin-top: 8vw;
+    width: 100vw;
+    height: 60vw;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(splash_animation/baggrund.png);
+    background-size: 100% 100%;
+
+    z-index: 0;
+
+
+}
+
+#rays {
+
+    position: absolute;
+    left: -45vw;
+    top: -20vw;
+    width: 100%;
+    height: 100%;
+    background-image: url(splash_animation/rays.png);
+    background-size: 100% 100%;
+
+
+    z-index: 2;
+
+
+    animation: rays_rotate 10s infinite linear alternate-reverse;
+
+}
+
+@keyframes rays_rotate{
+
+    from{
+  transform: rotate(0deg) scale(3);
+
+
+
+    }
+
+    to{
+        transform: rotate(10deg) scale(3);
+
+
+    }
+}
+
+
+
+#sun {
+
+    position: absolute;
+    width: 100%;
+    height: 170%;
+    top: -14vw;;
+    left: 25vw;
+    background-image: url(splash_animation/sun.png);
+    background-size: 100% 100%;
+
+    transform: scale(.4);
+    z-index: 2;
+
+
+}
+
+#siluette1 {
+
+    position: absolute;
+
+    top: 25vw;
+    left: -6vw;
+    width: 113vw;
+    height: 25vw;
+
+    background-image: url(splash_animation/siluete1.png);
+    background-size: 100% 100%;
+
+    transform: scale(.9);
+
+    z-index: 10;
+}
+
+#flaske1 {
+
+    position: absolute;
+
+    top: -25vw;
+    left: 30vw;
+    width: 30vw;
+    height: 100vw;
+
+    background-image: url(splash_animation/flaske1.png);
+    background-size: 100% 100%;
+
+    transform: scale(.45);
+
+    z-index: 8;
+
+
+}
+
+#flaske2 {
+
+    position: absolute;
+
+    top: -15vw;
+    left: 46vw;
+
+    width: 30vw;
+    height: 100vw;
+
+    background-image: url(splash_animation/flaske2.png);
+    background-size: 100% 100%;
+
+    transform: scale(.2);
+
+    z-index: 5;
+
+
+}
+
+#flaske3 {
+
+    position: absolute;
+    top: -20vw;
+    left: 13vw;
+    width: 30vw;
+    height: 100vw;
+    background-image: url(splash_animation/flaske3.png);
+    background-size: 100% 100%;
+    transform: scale(.3);
+    z-index: 4;
+
+
+}
+
+#flaske4 {
+
+    position: absolute;
+    top: -25vw;
+    left: -5vw;
+    width: 30vw;
+    height: 100vw;
+    background-image: url(splash_animation/flaske4.png);
+    background-size: 100% 100%;
+    transform: scale(.4);
+    z-index: 6;
+
+
+}
+
+
+.sky {
+    background-image: url(splash_animation/sky1.png);
+    background-size: 100% 100%;
+
+    width: 110%;
+    height: 100%;
+
+    position: absolute;
+
+    transform: scale(.1);
+}
+
+.fsky1 {
+
+    top: -2vw;
+    animation: drift 25s linear infinite;
+    z-index: 5;
+
+}
+
+.fsky2 {
+
+    top: -18vw;
+    transform: scale(.2);
+    animation: drift 45s 5s linear infinite backwards;
+     z-index: 6;
+}
+
+
+.fsky3 {
+    top: -25vw;
+    animation: drift 30s 10s linear infinite backwards;
+     z-index: 9;
+}
+
+.fsky4 {
+
+    top: vw;
+    transform: scale(.15);
+    animation: drift 40s 8s linear infinite backwards;
+     z-index: 5;
+}
+
+@keyframes drift {
+    from {
+        left: -70vw;
+
+    }
+
+    to {
+        left: 60vw;
+    }
+}
+
+#water{
+
+    background-image: url(splash_animation/water.png);
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 60%;
+    top:30vw;
+
+    position: absolute;
+
+    transform: scale(1);
+    z-index: 2;
+
+}
